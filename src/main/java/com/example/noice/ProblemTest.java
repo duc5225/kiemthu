@@ -88,4 +88,22 @@ class ProblemTest {
     void Test16() {
         assertEquals(true, Problem.solve("12*3","12003"));
     }
+
+    // Kiểm thử dòng dữ liệu
+
+    @Test
+    void Test17() {
+        assertEquals(true, Problem.solve("a*c","abc"));
+    }
+
+    @Test
+    void Test18() {
+        assertEquals(true, Problem.solve("ab*","abc"));
+    }
+
+    @Test
+    void Test19() {
+        assertEquals(true, Problem.solve("*bc","abc"));
+    }
+
 }
